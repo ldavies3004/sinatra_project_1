@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+Hello <%= @name %>
+HAPPY BIRTHDAY! 
+</html>
+
+
+<%= case params [:theme] %>
+<%= when "baby"
+    <img src="http://media.tumblr.com/89ffded8a6d3f7dda2877002b09da2db/tumblr_inline_mqecd9VTNb1qz4rgp.gif"> %>
+
+<%= when "dance"
+    <img src="http://24.media.tumblr.com/6108ac67c9f45d30be0afaf3417b2665/tumblr_mq4ke6ISEO1s2yz2ro9_500.gif"> %>
+
+<%= else 
+    <img src="http://31.media.tumblr.com/e19e14369b57d0afcf1649df351ca650/tumblr_mput5ok2dT1r5ft6to9_250.gif"> %>
+<%= end %> 

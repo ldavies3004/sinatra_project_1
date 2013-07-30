@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title> Happy Birthday  </title>
+        <link rel='stylesheet' href='/bootstrap/css/bootstrap.css'>
+        <link rel='stylesheet' type='text/css' href='/custom.css'>
+        <link rel="shortcut icon" href="/favicon.ico"/>
+        <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Fauna+One'  >
+   
+    </head>
+
+    <body>
+
+<!--                    first container                 -->
+
+        <div class= "container" id="first">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <center><h1>Happy Birthday <%= @to.capitalize %></h1></center>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+        </div>
+
+<!--                     second Container               -->
+
+        <div class= "container" id="second">
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <center><h2>You are <%= @age %> today!</h2></center>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        </div>
+
+<!--                    third Container                     -->
+
+        <div class= "container" id ="third">
+
+            <br><br><br><br>
+            <center><img width="700pixels" src="http://media.tumblr.com/89ffded8a6d3f7dda2877002b09da2db/tumblr_inline_mqecd9VTNb1qz4rgp.gif"></center>
+            <br><br><br><br>
+
+        </div>
+
+<!--                Fourth Container                        -->
+
+        <div class= "container" id = "fourth">
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <center><h3>Love from <%= @from.capitalize %></h3></center> 
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        </div>
+
+
+    </body>
+
+</html>
