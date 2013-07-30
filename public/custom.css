@@ -1,4 +1,5 @@
-#first {background-color: #DC3D24}
+#first {background-color: #DC3D24;
+        min-width:960px;}
 
 #second {background-color: #232B2B}
 
