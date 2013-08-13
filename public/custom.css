@@ -8,6 +8,8 @@ body {min-width:960px}
 
 #fourth {background-color: #E3AE57}
 
+#fifth {background-color: #FAFAD2}
+
 h1 {
     font-family: 'Fauna One', serif;
 }
@@ -19,4 +21,7 @@ h2 {
 
 h3 {
     font-family: 'Fauna One', serif;
+}
+
+a {font-family: 'Fauna One', serif;
 }
